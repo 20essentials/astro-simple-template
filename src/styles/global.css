@@ -16,12 +16,10 @@ img {
 }
 
 :root {
-  --global-blue: dodgerblue;
   --gradient-btn: linear-gradient(
     to bottom,
-    var(--global-blue),
     #00f,
-    var(--global-blue)
+    black
   );
 }
 
