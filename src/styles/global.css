@@ -1,3 +1,20 @@
+:root {
+  --gradient: linear-gradient(to bottom, #00f, white);
+}
+
+@font-face {
+  font-family: 'AnotherDanger';
+  src: url('/assets/AnotherDanger.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  --sb-track-color: #000;
+  --sb-thumb-color: var(--gradient);
+  --sb-size: 0.7vmax;
+}
+
 *,
 *::after,
 *::before {
@@ -15,21 +32,10 @@ img {
   user-select: none;
 }
 
-:root {
-  --gradient: linear-gradient(to bottom, #00f, white);
-}
-
 button {
   background-color: transparent;
   border: none;
   outline: none;
-}
-
-@font-face {
-  font-family: 'AnotherDanger';
-  src: url('/assets/AnotherDanger.otf') format('opentype');
-  font-weight: normal;
-  font-style: normal;
 }
 
 body {
@@ -45,12 +51,6 @@ h3,
 h4,
 h5 {
   font-family: 'AnotherDanger';
-}
-
-body {
-  --sb-track-color: #000;
-  --sb-thumb-color: var(--gradient);
-  --sb-size: 0.7vmax;
 }
 
 /***************************SCROLL***************************/
