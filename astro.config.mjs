@@ -6,6 +6,7 @@ export default defineConfig({
   build: {
     assets: 'static'
   },
+  
   //Localhost
   site: 'http://localhost:4321/'
 
