@@ -3,14 +3,15 @@ import { baseUrl } from '@/utils/functions';
 const logo = baseUrl('/assets/css-logo.svg');
 ---
 
-<section>
+<section class="am-hero">
   <h1>
     20 PROJECTS WITH CSS <img src={logo} alt='Logo' />
   </h1>
 </section>
 <style>
-  section {
+  .am-hero {
     height: 100vh;
+    position: relative;
   }
 
   h1 {

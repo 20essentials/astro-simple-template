@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       astro:
-        specifier: 5.13.2
-        version: 5.13.2(@types/node@22.15.21)(rollup@4.41.1)(typescript@5.8.3)
+        specifier: 5.13.5
+        version: 5.13.5(@types/node@22.15.21)(rollup@4.41.1)(typescript@5.8.3)
     devDependencies:
       gh-pages:
         specifier: 6.3.0
@@ -532,8 +532,8 @@ packages:
     resolution: {integrity: sha512-HGyxoOTYUyCM6stUe6EJgnd4EoewAI7zMdfqO+kGjnlZmBDz/cR5pf8r/cR4Wq60sL/p0IkcjUEEPwS3GFrIyw==}
     engines: {node: '>=8'}
 
-  astro@5.13.2:
-    resolution: {integrity: sha512-yjcXY0Ua3EwjpVd3GoUXa65HQ6qgmURBptA+M9GzE0oYvgfuyM7bIbH8IR/TWIbdefVUJR5b7nZ0oVnMytmyfQ==}
+  astro@5.13.5:
+    resolution: {integrity: sha512-XmBzkl13XU97+n/QiOM5uXQdAVe0yKt5gO+Wlgc8dHRwHR499qhMQ5sMFckLJweUINLzcNGjP3F5nG4wV8a2XA==}
     engines: {node: 18.20.8 || ^20.3.0 || >=22.0.0, npm: '>=9.6.5', pnpm: '>=7.1.0'}
     hasBin: true
 
@@ -2032,7 +2032,7 @@ snapshots:
 
   array-union@2.1.0: {}
 
-  astro@5.13.2(@types/node@22.15.21)(rollup@4.41.1)(typescript@5.8.3):
+  astro@5.13.5(@types/node@22.15.21)(rollup@4.41.1)(typescript@5.8.3):
     dependencies:
       '@astrojs/compiler': 2.12.2
       '@astrojs/internal-helpers': 0.7.2

@@ -9,7 +9,7 @@ const arrayCards = [
 ];
 ---
 
-<section>
+<section class="am-container-cards">
   {
     arrayCards.map(({ id, localImage, repo, title }) => (
       <aside class='card' />
@@ -18,7 +18,7 @@ const arrayCards = [
 </section>
 
 <style>
-  section {
+  .am-container-cards {
     min-height: 100vh;
     display: grid;
     padding: 2.2vmax;

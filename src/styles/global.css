@@ -1,5 +1,5 @@
 :root {
-  --gradient: linear-gradient(to bottom, #00f, white);
+  --gradient: linear-gradient(to bottom, #00f, transparent);
 }
 
 @font-face {
