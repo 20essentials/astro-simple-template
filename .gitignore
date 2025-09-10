@@ -1,6 +1,7 @@
 # build output
 dist/
 
+
 # generated types
 .astro/
 
@@ -23,3 +24,6 @@ pnpm-lock.yaml
 
 # jetbrains setting folder
 .idea/
+
+# etc
+.vscode/
