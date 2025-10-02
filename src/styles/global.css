@@ -2,12 +2,20 @@
   --gradient: linear-gradient(to bottom, #00f, transparent);
 }
 
-@font-face {
+/* @font-face {
   font-family: 'AnotherDanger';
   src: url('/assets/AnotherDanger.otf') format('opentype');
   font-weight: normal;
   font-style: normal;
 }
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'AnotherDanger';
+} */
 
 body {
   --sb-track-color: #000;
@@ -45,13 +53,7 @@ body {
   flex-direction: column;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5 {
-  font-family: 'AnotherDanger';
-}
+
 
 /***************************SCROLL***************************/
 
